@@ -1,0 +1,104 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 1em;
+  background-color: #eee;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flag {
+  width: 150px;
+  height: 90px;
+  background-size: 150px 90px;  
+  background-position: center;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  float: left;
+  margin: 0.5em;
+  border: 5px solid white;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-shadow: 0 0 2px black;
+}
+
+.flag.selected {
+  box-shadow: 0 0 10px black;
+  background-blend-mode: normal;
+  border-color: black;
+}
+
+fieldset {
+  clear: left;
+  margin-bottom: 1em;
+  border: 1px solid lightgray;
+  background-color: #f8f8f8;
+}
+
+legend {
+  background-color: lightgray;
+  padding: 0.5em;
+  font-weight: bold;  
+}
+
+label {
+  margin: 0.5em;
+  white-space: nowrap;
+  width: 8em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+label input {
+  margin-right: 1em;
+}
+
+#result {
+  width: 600px;
+  height: 360px;
+  background-size: 600px 360px;
+  background-position: center;
+  clear: left;
+  margin: 2em auto;
+  border: 5px solid white;
+  box-shadow: 0 0 10px #888;
+  background-blend-mode: screen;
+}
+
+#flagname {
+  clear: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#LGBT { background-image: url(../img/LGBT.png); }
+#lesbian { background-image: url(../img/lesbian.png); }
+#bisexual { background-image: url(../img/bisexual.png); }
+#pansexual { background-image: url(../img/pansexual.png); }
+#polysexual { background-image: url(../img/polysexual.png); }
+#asexual { background-image: url(../img/asexual.png); }
+#aromantic { background-image: url(../img/aromantic.png); }
+#trans { background-image: url(../img/trans.png); }
+#genderfluid { background-image: url(../img/genderfluid.png); }
+#genderqueer { background-image: url(../img/genderqueer.png); }
+#non-binary { background-image: url(../img/non-binary.png); }
+#intersex { background-image: url(../img/intersex.png); }
+#bear { background-image: url(../img/bear.png); }
+#leather { background-image: url(../img/leather.png); }
+
+#bisexual {
+  background-image: url(../img/bisexual.png);
+}
+
+#pansexual {
+  background-image: url(../img/pansexual.png);
+}

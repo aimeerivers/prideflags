@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Personal flags</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <fieldset>
+    <legend>1. Choose your flags</legend>
+    <div class="flag" id="LGBT" title="LGBT">LGBT</div>
+    <div class="flag" id="lesbian" title="lesbian">lesbian</div>
+    <div class="flag" id="bisexual" title="bisexual">bisexual</div>
+    <div class="flag" id="pansexual" title="pansexual">pansexual</div>
+    <div class="flag" id="polysexual" title="polysexual">polysexual</div>
+    <div class="flag" id="asexual" title="asexual">asexual</div>
+    <div class="flag" id="aromantic" title="aromantic">aromantic</div>
+    <div class="flag" id="trans" title="trans">trans</div>
+    <div class="flag" id="genderqueer" title="genderqueer">genderqueer</div>
+    <div class="flag" id="genderfluid" title="genderfluid">genderfluid</div>
+    <div class="flag" id="non-binary" title="non-binary">non-binary</div>
+    <div class="flag" id="intersex" title="intersex">intersex</div>
+    <div class="flag" id="bear" title="bear">bear</div>
+    <div class="flag" id="leather" title="leather">leather</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>2. Try a blend mode</legend>
+    <label><input type="radio" name="blendmode" class="blendmode" value="screen" checked>screen</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="hard-light">hard-light</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="soft-light">soft-light</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="overlay">overlay</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="lighten">lighten</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="darken">darken</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="color">color</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="hue">hue</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="saturation">saturation</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="luminosity">luminosity</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="difference">difference</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="color-dodge">color-dodge</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="color-burn">color-burn</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="multiply">multiply</label>
+    <label><input type="radio" name="blendmode" class="blendmode" value="exclusion">exclusion</label>
+  </fieldset>
+
+  <div id="result" title="Your personal flag"></div>
+
+  <p id="flagname"></p>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
