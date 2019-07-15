@@ -8,7 +8,7 @@ $('.flag').click(function(e) {
 
   $('.selected').each(function(index) {
     flagnames.push(this.id);
-    flags.push("url(../img/" + this.id + ".png)");
+    flags.push("url(img/" + this.id + ".png)");
   });
 
   $('#flagname').text(flagnames.join(" + "));
