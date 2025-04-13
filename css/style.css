@@ -81,22 +81,36 @@ label input {
 }
 
 #LGBT { background-image: url(../img/LGBT.png); }
+#progress { background-image: url(../img/progress.png); }
+#inclusive { background-image: url(../img/inclusive.png); }
+#queer { background-image: url(../img/queer.png); }
 #lesbian { background-image: url(../img/lesbian.png); }
 #gay-men { background-image: url(../img/gay-men.png); }
 #bisexual { background-image: url(../img/bisexual.png); }
 #pansexual { background-image: url(../img/pansexual.png); }
 #polysexual { background-image: url(../img/polysexual.png); }
+#omnisexual { background-image: url(../img/omnisexual.png); }
 #asexual { background-image: url(../img/asexual.png); }
-#aromantic { background-image: url(../img/aromantic.png); }
-#aroace { background-image: url(../img/aroace.png); }
+#graysexual { background-image: url(../img/graysexual.png); }
 #demisexual { background-image: url(../img/demisexual.png); }
+#aromantic { background-image: url(../img/aromantic.png); }
+#grayromantic { background-image: url(../img/grayromantic.png); }
 #demiromantic { background-image: url(../img/demiromantic.png); }
+#aroace { background-image: url(../img/aroace.png); }
 #polyamorous { background-image: url(../img/polyamorous.png); }
 #trans { background-image: url(../img/trans.png); }
+#agender { background-image: url(../img/agender.png); }
+#bigender { background-image: url(../img/bigender.png); }
+#demiboy { background-image: url(../img/demiboy.png); }
+#demigirl { background-image: url(../img/demigirl.png); }
 #genderfluid { background-image: url(../img/genderfluid.png); }
+#genderflux { background-image: url(../img/genderflux.png); }
 #genderqueer { background-image: url(../img/genderqueer.png); }
+#pangender { background-image: url(../img/pangender.png); }
 #non-binary { background-image: url(../img/non-binary.png); }
+#elsegender { background-image: url(../img/elsegender.png); }
 #intersex { background-image: url(../img/intersex.png); }
+#sapphic { background-image: url(../img/sapphic.png); }
 #bear { background-image: url(../img/bear.png); }
 #leather { background-image: url(../img/leather.png); }
 
