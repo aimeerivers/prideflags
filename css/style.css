@@ -12,9 +12,9 @@ h1 {
 }
 
 .flag {
-  width: 150px;
-  height: 90px;
-  background-size: 150px 90px;  
+  width: 120px;
+  height: 72px;
+  background-size: 120px 72px;  
   background-position: center;
   background-color: rgba(255,255,255,0.6);
   background-blend-mode: lighten;
@@ -26,7 +26,7 @@ h1 {
   text-align: center;
   vertical-align: bottom;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-shadow: 0 0 2px black;
 }
 
